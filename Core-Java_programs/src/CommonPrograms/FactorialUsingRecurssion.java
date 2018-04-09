@@ -1,6 +1,6 @@
 package CommonPrograms;
 
-public class FabonacciSeriesUsingRecurssion {
+public class FactorialUsingRecurssion {
 
 	public static void main(String[] args) {
 

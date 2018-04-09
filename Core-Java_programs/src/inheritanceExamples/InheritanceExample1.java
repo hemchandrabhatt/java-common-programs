@@ -14,6 +14,7 @@ public class InheritanceExample1 {
 class A extends B {
 	public void methodA() {
 		System.out.println("This is menthod A");
+		System.out.println("changse in github");
 	}
 }
 

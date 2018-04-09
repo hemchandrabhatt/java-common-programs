@@ -8,7 +8,7 @@ class Private{
 	System.out.println("this is private method");
 }
 }
-
+// how to call private method in java
 public class A{
 	public static void main(String[] args) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
 		Private obj = new Private();
