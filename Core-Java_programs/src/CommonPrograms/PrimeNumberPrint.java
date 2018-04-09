@@ -3,7 +3,7 @@ package CommonPrograms;
 import java.util.Scanner;
 
 public class PrimeNumberPrint {
-	
+	//method starts from here
 	static void PrintPrimeNumber(int inputNumber){
 		int flag = 0;
 		if(inputNumber==0 || inputNumber==1){
@@ -22,7 +22,7 @@ public class PrimeNumberPrint {
 		}
 		
 	}
- //main starts from here
+ //main starts from here 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
