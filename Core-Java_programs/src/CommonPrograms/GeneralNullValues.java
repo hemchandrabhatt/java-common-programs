@@ -13,15 +13,15 @@ public class GeneralNullValues {
 	
 	public static void main(String[] args) {
 
-		//int NULL = 0;
-		//int i=NULL;
-		//System.out.println(i);
+		int NULL = 0;
+		int i=NULL;
+		System.out.println(i);
 		
 		
 		
-		System.out.println(a =20);
+		/*System.out.println(a =20);
 		System.out.println(b);
-		System.out.println(c);
+		System.out.println(c);*/
 		
 
 	}

@@ -32,6 +32,7 @@ public class TestingPurpose {
 		
 		StringBuffer sb3= new StringBuffer("Hema");
 		//sb3="Hemmchandra";
+		//Math.pow(a, b)
 
 		
 		

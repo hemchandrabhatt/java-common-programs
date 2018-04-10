@@ -6,7 +6,7 @@ public class FindLengthOfSubStringFromString {
 
 	public static void main(String[] args) {
 		int j = 0;int temp = 0, temp1=0;
-		String str = "abcadefghijkalkmhj";
+		String str = "abcadefghijkalkmnnbnbnbnhj";
 		String[] charArray = str.split("a");
 		// Arrays.sort(charArray);
 		// System.out.println(charArray[charArray.length-1]);
