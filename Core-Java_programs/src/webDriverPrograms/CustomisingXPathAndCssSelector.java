@@ -5,11 +5,13 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.reporters.jq.Main;
 
 public class CustomisingXPathAndCssSelector {
 
 	public static void main(String[] args) {
 		
+		public void test(){
 		System.setProperty("webdriver.gecko.driver",
 				"E:\\jar libraries\\geckodriver-v0.19.0-win64\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
