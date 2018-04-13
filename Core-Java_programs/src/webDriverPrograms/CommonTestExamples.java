@@ -26,3 +26,8 @@ public class CommonTestExamples {
   }
 
 }
+
+System.setProperty("webdriver.gecko.driver",
+		"E:\\jar-libraries\\geckodriver-v0.19.0-win64\\geckodriver.exe");
+FirefoxDriver driver = new FirefoxDriver();
+driver.get("https://www.amazon.in/");
