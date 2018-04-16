@@ -4,7 +4,7 @@ public class ReadJSONFileDataExample {
 
 	public static void main(String[] args) {
 		
-		JSONParser parser = new JSONParser();
+		/*JSONParser parser = new JSONParser();
 
         try {     
             Object obj = parser.parse(new FileReader("c:\\file.json"));
@@ -33,7 +33,7 @@ public class ReadJSONFileDataExample {
         } catch (ParseException e) {
             e.printStackTrace();
         }
-
+*/
 	}
 
 }
