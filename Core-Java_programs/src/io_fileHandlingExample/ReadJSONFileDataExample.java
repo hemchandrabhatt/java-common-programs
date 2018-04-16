@@ -32,8 +32,8 @@ public class ReadJSONFileDataExample {
             e.printStackTrace();
         } catch (ParseException e) {
             e.printStackTrace();
-        }
-*/
+        }*/
+
 	}
 
 }
