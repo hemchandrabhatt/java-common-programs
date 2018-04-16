@@ -25,7 +25,7 @@ public class FindLengthOfSubStringFromString {
 		}*/
 		int max = arr[0];
 	    int pos = 0;
-		for(int i=1; i<arr.length; i++) {
+		for(int i=0; i<arr.length; i++) {
 	        if (max < arr[i]) {
 	            pos = i;
 	            max = arr[i];
