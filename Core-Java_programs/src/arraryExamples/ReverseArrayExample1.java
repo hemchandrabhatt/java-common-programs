@@ -10,23 +10,7 @@ public class ReverseArrayExample1 {
 		//reverseArrayWhile(orgArray);
 
 	}
-
-	/*private static void reverseArrayWhile(int[] orgArray) {
-		int i, j, temp;
-		i=0;
-		j=orgArray.length-1;
-		while(i>j){
-			temp = orgArray[j];
-			orgArray[j] = orgArray[i];
-			orgArray[i] = temp;
-			i++;
-			j--;
-		}
-		for (i = 0; i < orgArray.length; i++) {
-			System.out.println(orgArray[i]);
-		}
-	}
-*/
+	
 	private static void reverseArray(int[] orgArray) {
 		for (int i = 0; i < orgArray.length; i++) {
 			System.out.println(orgArray[i]);

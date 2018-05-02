@@ -1,27 +1,30 @@
 package io_fileHandlingExample;
 
+import com.google.gson.JsonObject;
+
 public class ReadJSONFileDataExample {
 
 	public static void main(String[] args) {
 		
+		
 		/*JSONParser parser = new JSONParser();
 
         try {     
-            Object obj = parser.parse(new FileReader("c:\\file.json"));
+            Object obj = parser.parse(new FileReader('c:\\file.json'));
 
             JSONObject jsonObject =  (JSONObject) obj;
 
-            String name = (String) jsonObject.get("name");
+            String name = (String) jsonObject.get('name');
             System.out.println(name);
 
-            String city = (String) jsonObject.get("city");
+            String city = (String) jsonObject.get('city');
             System.out.println(city);
 
-            String job = (String) jsonObject.get("job");
+            String job = (String) jsonObject.get('job');
             System.out.println(job);
 
             // loop array
-            JSONArray cars = (JSONArray) jsonObject.get("cars");
+            JSONArray cars = (JSONArray) jsonObject.get('cars');
             Iterator<String> iterator = cars.iterator();
             while (iterator.hasNext()) {
              System.out.println(iterator.next());

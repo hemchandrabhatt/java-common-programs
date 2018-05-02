@@ -7,6 +7,7 @@ public class CountDuplicateCharFromString {
 		int i, j;
 		String str = "I m an Genpact Employee".toLowerCase().replaceAll("\\s",
 				"");
+		//System.out.println(str);
 		char[] charArr = str.toCharArray();
 		for (i = 0; i < charArr.length; i++) {
 			for (j = i + 1; j < charArr.length; j++) {

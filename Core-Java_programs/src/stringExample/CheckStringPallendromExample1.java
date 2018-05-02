@@ -1,6 +1,6 @@
 package stringExample;
 
-public class ReverseStringExample1 {
+public class CheckStringPallendromExample1 {
 
 	public static boolean reverseString(String str) {
 		//String temp=str;
@@ -14,12 +14,12 @@ public class ReverseStringExample1 {
 	}
 
 	public static void main(String[] args) {
-		String str = "abcba";
+		String str = "abcbaa";
 		// String str1 =null;
 		String temp = str.toLowerCase().replaceAll("[^a-z]", "");
 		//System.out.println(str.length());
 		boolean result = reverseString(temp);
-		if(result ==true)
+		if(result)
 			System.out.println("String is pallendrom");
 		else 
 				System.out.println("String is not pallendrom");
